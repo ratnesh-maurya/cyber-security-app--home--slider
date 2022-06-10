@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/four"
+    tools:context=".MainActivity4">
+
+
+    <Button
+        android:id="@+id/buttonp4"
+        style="@style/Widget.Material3.Button.TextButton.Dialog"
+        android:layout_width="78dp"
+        android:layout_height="39dp"
+        android:text="PREV"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955"
+        app:strokeColor="#B1C0C3"
+        app:strokeWidth="1dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textSize="18dp"
+        android:layout_width="290dp"
+        android:layout_height="39dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Hope you like our APP "
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
